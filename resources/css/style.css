@@ -1,0 +1,166 @@
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-image: url("../img/Danang2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #ffffff;
+    font-family: 'Cousine', cursive;
+}
+h2{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    color: #ff7300;
+}
+a{    
+    text-decoration: none;
+    color: #ffffff;
+}
+b,h4{
+    color: #d7bde6;
+}
+h4{
+    display: inline-block;
+    margin: 0;
+}
+
+.fas, .fab{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+/* ---------- LEFT CONTAINER ---------------- */
+.left-container{
+    background-color:#000000c0;
+    height: 100vh;
+    width: 35%;
+    display: inline-block;
+    position: fixed;
+}
+
+.name{
+    text-transform: uppercase;
+    font-size: 45px;
+    letter-spacing: 5px;
+    text-align: right;
+    margin-top: 100px;
+    padding: 0 40px 0 0;
+    font-family: 'Days One', Arial;
+    text-shadow: 2px 2px 3px #ff7300;
+}
+
+.job{
+    margin: 15px 0 0 0;
+    text-align: right;
+    padding: 0 40px 0 0;
+    font-size: 15px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.navigation{
+    margin-top: 60px;
+    width: 100%;
+    display: inline-block;
+}
+.navigation ul{
+    list-style: none;
+    margin: 0 40px 0 0;
+    text-align: right;
+}
+.navigation a{
+    padding: 15px 0;
+    display: inline-block;
+}
+.navigation a:hover{
+    color: #ff7300;
+}
+
+.button{
+    margin-top: 100px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.btnLeft{
+    width: 150px;
+    height: 30px;
+    color: #ffffff;
+    border: 0.1em solid #ffffff;
+    border-radius: 0.12em;
+    font-weight: 300;
+    display: inline-block;
+    line-height: 30px;
+    margin: 3px 15px;
+}
+.btnLeft:hover{
+    color: #ffffff;
+    background-color: #ff7300;
+    border: 0;
+}
+/* ---------- RIGHT CONTAINER ---------------- */
+.right-container{
+    width: 65%;
+    float: right;
+}
+
+.item{
+    background-color: #000000c0;
+    display: block;
+    margin: 40px 0;
+    box-shadow: 0 0 5px #ffffff;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    padding: 15px;
+}
+
+.item-menu{
+    margin: 100px 60px; 
+    padding-top: 10px;
+}
+
+#home{
+    margin-top: 0px !important;
+}
+
+#cover-cv{
+    filter: drop-shadow(0 0 5px #ffffff);
+    max-width: 100%;
+    padding: 0 !important;  
+}
+
+#signature{
+    max-width: 100px;
+    float: right;
+    margin-right: 30px;
+}
+
+.infor{
+    display: block;    
+}
+
+.item-hobbies{
+    width: 23%;
+    display: inline-block;
+    border: 0px solid red;
+    text-align: center;
+}
+
+.name-skill{
+    text-align: center;
+    height: 25px;
+}
+
+#skills li{
+    list-style: none;
+    width: 18%;
+    display: inline-block;
+    text-align: center;
+}
+
+.edu-item b{
+    font-size: 18px;
+}
